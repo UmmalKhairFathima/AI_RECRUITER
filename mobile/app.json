@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "AI Recruiter",
+    "slug": "ai-recruiter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "airecruiter",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f3f7ff"
+    },
+    "android": {
+      "package": "com.smartrecruiter.mobile"
+    }
+  }
+}

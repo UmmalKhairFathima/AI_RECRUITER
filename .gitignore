@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/app/**/__pycache__/
+*.pyc
+
+# Data
+backend/data/store.json
+
+# Node
+mobile/node_modules/
+mobile/.expo/
+mobile/android/
+mobile/ios/
+
+# OS
+.DS_Store
+Thumbs.db
