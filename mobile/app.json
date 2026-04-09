@@ -11,6 +11,11 @@
     },
     "android": {
       "package": "com.smartrecruiter.mobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2d9af99-6888-4835-8495-6f191ed8a121"
+      }
     }
   }
 }

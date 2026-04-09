@@ -1,4 +1,4 @@
-const BASE_URL = 'http://10.0.2.2:8000';
+const BASE_URL = (process.env.EXPO_PUBLIC_API_URL ?? 'https://ai-recruiter-d5bg.onrender.com').replace(/\/$/, '');
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE_URL}${path}`, {
