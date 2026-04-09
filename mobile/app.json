@@ -3,6 +3,7 @@
     "name": "AI Recruiter",
     "slug": "ai-recruiter",
     "version": "1.0.0",
+    "icon": "./assets/icon.png",
     "orientation": "portrait",
     "scheme": "airecruiter",
     "userInterfaceStyle": "light",
@@ -10,7 +11,11 @@
       "backgroundColor": "#f3f7ff"
     },
     "android": {
-      "package": "com.smartrecruiter.mobile"
+      "package": "com.smartrecruiter.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#4f46e5"
+      }
     },
     "extra": {
       "eas": {
